@@ -21,23 +21,23 @@ This project allows users to encrypt and decrypt messages, maintain history logs
 
 ## 🧱 Project Structure
 
-caesar-cipher-flask/
-│
-├── app.py
-├── requirements.txt
-├── history.json
-│
-├── templates/
-│   ├── index.html
-│   ├── cipher.html
-│   ├── history.html
-│   ├── about.html
-│   ├── working.html
-│   └── contact.html
-│
-└── static/
-    ├── style.css
-    └── script.js
+-caesar-cipher-flask/
+-│
+-├── app.py
+-├── requirements.txt
+-├── history.json
+-│
+-├── templates/
+-│   ├── index.html
+-│   ├── cipher.html
+-│   ├── history.html
+-│   ├── about.html
+-│   ├── working.html
+-│   └── contact.html
+-│
+-└── static/
+-    ├── style.css
+-    └── script.js
 
 ---
 
