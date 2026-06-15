@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/cipher">Tool</a>
+    <a href="/history">History</a>
+</nav>
+
+<div class="container">
+
+<h2>Caesar Cipher Tool</h2>
+
+<textarea id="message" placeholder="Enter message"></textarea>
+
+<input type="number" id="shift" value="3" min="1" max="25">
+
+<br>
+
+<button class="encrypt" onclick="encrypt()">Encrypt</button>
+<button class="decrypt" onclick="decrypt()">Decrypt</button>
+<button class="clear" onclick="clearAll()">Clear</button>
+
+<h3>Result</h3>
+<textarea id="result" readonly></textarea>
+
+<div id="status">Ready</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
